@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/citric-nova-218906/frontend:cv-frontend-1
+        image: gcr.io/citric-nova-218906/frontend:cv-frontend-2
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
