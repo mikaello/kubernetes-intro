@@ -1,4 +1,4 @@
-kind: LoadBalancer
+kind: Service
 apiVersion: v1
 metadata:
   name: frontend
@@ -11,4 +11,4 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 8080
-  type: ClusterIP
+  type: LoadBalancer
